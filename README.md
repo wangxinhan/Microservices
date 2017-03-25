@@ -6,14 +6,15 @@
 
 1、构建第一个服务
 
-     图书分享、借阅平台
-     图书分享、借阅服务 技术栈 ： {
-          koa2：Node.js后端框架
-          Vue: 前端框架
-          mongo: 数据库
-     }
+ 图书分享、借阅平台 后端服务
+ 
+ 技术栈：  
+ 
+* koa2：Node.js后端框架
+* Vue: 前端框架
+* mongo: 数据库
 
-     交互方式： Rest HAL
+ 交互方式： Rest HAL
      
 2、构建Docker映像
 
@@ -26,8 +27,10 @@
    
 5、日志聚合
 
- * ELK     https://kibana.logstash.es/content/
-             http://mubanjiu.com/2016/10/17/ELK/
+ * ELK  https://kibana.logstash.es/content/
+ 
+     http://mubanjiu.com/2016/10/17/ELK/
+     
  * splunk  https://www.splunk.com/
      
 6、监控与告警

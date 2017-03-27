@@ -4,17 +4,7 @@
 
 ### 整体步骤
 
-1、构建第一个服务
-
- 图书分享、借阅平台 后端服务
- 
- 技术栈：  
- 
-* koa2：Node.js后端框架
-* Vue: 前端框架
-* mongo: 数据库
-
- 交互方式： Rest HAL
+1、构建服务
      
 2、构建Docker映像
 
@@ -44,3 +34,23 @@
 ### 初期方案
 
 初期实现一个Hello World API，整体流程跑通之后，执行功能迭代。
+
+
+### 微服务基础设施 1.0
+
+* 注册中心 zookeeper: 服务注册 健康检查
+* 服务网关 Node服务: 接口路由 反向代理 服务发现
+* 数据库 mongodb
+* 缓存 redis
+* 持续部署 持续交付 jekens + docker
+* 日志聚合 ELK
+* 消息队列 后台任务 (任务 队列 定时器 执行器) | RabbitMQ
+* 配置中心 调研 | 无
+
+### 技术栈
+ * Node: koa2 | koa | Express
+ * 前端: vue 
+ * java: Sping Boot
+ * 服务交互方式: restApi HAL协议 
+ 
+ 

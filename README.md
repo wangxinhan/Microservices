@@ -42,7 +42,7 @@
 * 服务网关 Node服务: 接口路由 反向代理 服务发现
 * 数据库 mongodb
 * 缓存 redis
-* 持续部署 持续交付 jekens + docker
+* 持续部署 持续交付 jenkins + docker
 * 日志聚合 ELK
 * 消息队列 后台任务 (任务 队列 定时器 执行器) | RabbitMQ
 * 配置中心 调研 | 无
@@ -52,5 +52,8 @@
  * 前端: vue 
  * java: Sping Boot
  * 服务交互方式: restApi HAL协议 
+ 
+### 产品 
+ [图书分享、借阅平台](https://github.com/wangxinhan/Microservices/blob/master/%E5%9B%BE%E4%B9%A6%E5%88%86%E4%BA%AB%E5%B9%B3%E5%8F%B0.md)  
  
  

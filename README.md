@@ -42,7 +42,7 @@
 * 服务网关 Node服务: 接口路由 反向代理 服务发现
 * 数据库 mongodb
 * 缓存 redis
-* 持续部署 持续交付 jekens + docker
+* 持续部署 持续交付 jekeins + docker
 * 日志聚合 ELK
 * 消息队列 后台任务 (任务 队列 定时器 执行器) | RabbitMQ
 * 配置中心 调研 | 无

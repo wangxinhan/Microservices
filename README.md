@@ -53,4 +53,7 @@
  * java: Sping Boot
  * 服务交互方式: restApi HAL协议 
  
+### 产品 
+ [图书分享平台](https://github.com/wangxinhan/Microservices/blob/master/%E5%9B%BE%E4%B9%A6%E5%88%86%E4%BA%AB%E5%B9%B3%E5%8F%B0.md)  
+ 
  

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Demo</title>
+     <script type="text/javascript" src="./public/js/jquery.min.js"></script>
+</head>
+<body>
+    <h1>hello</h1>
+    <div id="console"></div>
+</body>
+    <script>
+        $(function () {
+            $.ajax({
+                method: 'GET',
+                url: '/hello',
+                headers: {
+                    'Service-Name': 'HelloService'
+                },
+                success: function (data) {
+                    $('#console').text(data);
+                }
+            });
+        });
+    </script>
+</html>
+

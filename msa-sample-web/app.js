@@ -51,7 +51,7 @@ app.all('*', function (req,res) {
         if(size == 1) {
             addressPath += addressNodes[0];
         }else{
-            addressNodes += addressNodes[parseInt(Math.random()*size)]
+            addressNodes += addressNodes[parseInt(Math.random()*size)];
         }
         console.log('addressPath: %s', addressPath);
         zk.getData(addressPath, function (error, serviceAddress) {

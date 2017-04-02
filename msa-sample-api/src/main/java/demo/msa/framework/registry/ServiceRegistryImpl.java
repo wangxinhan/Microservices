@@ -53,8 +53,8 @@ public class ServiceRegistryImpl implements ServiceRegistry, Watcher {
                 logger.debug("create service node: {}" + servicePath);
             }
             //创建地址节点 (临时顺序节点)
-            String addressPath = servicePath +"/address-0000";
-            String addressNode = zk.create(addressPath, serviceAddress.getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+            String addressPath = servicePath +"/address-0001";
+            String addressNode = zk.create(addressPath, serviceAddress.getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL);
             logger.debug("create address node: {}", addressNode, serviceAddress);
 
         } catch (Exception e) {

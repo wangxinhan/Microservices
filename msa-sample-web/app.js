@@ -18,7 +18,7 @@ proxy.on('error', function (err, req, res) {
 
 var app = express();
 app.use(express.static('public'));
-app.all('*', function (req,res) {
+app.get('/hello', function (req,res) {
     if(req.path == '/favicon.ico'){
         res.end();
         return;
@@ -51,7 +51,7 @@ app.all('*', function (req,res) {
         if(size == 1) {
             addressPath += addressNodes[0];
         }else{
-            addressNodes += addressNodes[parseInt(Math.random()*size)];
+            addressPath += addressNodes[parseInt(Math.random()*size)];
         }
         console.log('addressPath: %s', addressPath);
         zk.getData(addressPath, function (error, serviceAddress) {

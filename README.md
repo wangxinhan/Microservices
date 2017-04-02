@@ -54,8 +54,15 @@
  * 前端: vue 
  * java: Sping Boot
  * 服务交互方式: restApi HAL协议 
+
+### 版本
+
+* jdk 1.8
+* node 6.10.0
+* maven 3.3.9
  
-### 产品 
- [图书分享、借阅平台](https://github.com/wangxinhan/Microservices/blob/master/book/README.md)  
+### 产品
+ 
+	拼租
  
  

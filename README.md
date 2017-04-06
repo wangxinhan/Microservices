@@ -2,7 +2,7 @@
 
 ## 微服务架构探索与实践
 
-![微服务架构图](https://raw.githubusercontent.com/CocaCola183/Microservices/kivi/images/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![微服务架构图](https://github.com/wangxinhan/Microservices/blob/master/images/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 ### 整体步骤
 

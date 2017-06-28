@@ -1,0 +1,43 @@
+export const SIGNIN = 'SIGNIN'
+// export const SIGNIN1 = 'SIGNIN1'
+export const SIGNOUT = 'SIGNOUT'
+
+export const MASKING = 'MASKING'
+
+export const SET_SESSION = 'SET_SESSION'
+export const SET_DICMAP = 'SET_DICMAP'
+export const PUSH_TYPE_DICDATA = 'PUSH_TYPE_DICDATA'
+export const SET_TYPE_DICDATA = 'SET_TYPE_DICDATA'
+export const SET_OPTIONS_DICMAP = 'SET_OPTIONS_DICMAP'
+
+export const PUSH_TASK_TEM = 'PUSH_TASK_TEM'
+export const PUSH_CONDITION_TEM = 'PUSH_CONDITION_TEM'
+
+export const SET_MENU = 'SET_MENU'
+export const INIT_CONFIG = 'INIT_CONFIG'
+
+export const SET_CURRENT_CUSTOMER = 'SET_CURRENT_CUSTOMER'
+export const UPDATE_CUSTOMER_INFO = 'UPDATE_CUSTOMER_INFO'
+
+export const SET_ERROR = 'SET_ERROR'
+export const SET_EXIT = 'SET_EXIT'
+export const SET_SUCCESS = 'SET_SUCCESS'
+export const SET_INFO = 'SET_INFO'
+
+export const SET_FILEDOWNLOAD = 'SET_FILEDOWNLOAD'
+export const SET_NOTIFY = 'SET_NOTIFY'
+export const SET_DRAGPOP = 'SET_DRAGPOP'
+
+export const USER_TOKEN = 'USER_TOKEN'
+export const USER_EDIT = 'USER_EDIT'
+
+export const LOGINED = 'LOGINED'
+
+export const NEW_NOTIFY = 'common/NEW_NOTIFY'
+
+export const CHANGE_STATE_INVITECON = 'CHANGE_STATE_INVITECON'
+
+export const CLOSE_ADV_SEARCH = 'CLOSE_ADV_SEARCH'
+
+export const CHANGE_PASSWORD_ADVICE = 'CHANGE_PASSWORD_ADVICE'
+export const SET_BIGIMG = 'SET_BIGIMG'

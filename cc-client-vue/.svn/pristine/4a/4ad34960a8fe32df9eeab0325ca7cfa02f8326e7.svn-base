@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/static/img/logo.ico">
+    <title>云客服</title>
+    <link rel=stylesheet type=text/css href="" id="m7LanguageStyle">
+  </head>
+  <body class="login-loading" id="login-body">
+    <div id="app">
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+

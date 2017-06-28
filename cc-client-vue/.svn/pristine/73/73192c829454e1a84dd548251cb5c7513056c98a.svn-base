@@ -1,0 +1,8 @@
+export const QUES_LIST_ALL = 'ques/QUES_LIST_ALL'
+export const QUES_LIST_MY = 'ques/QUES_LIST_MY'
+export const QUES_CURRENT = 'ques/QUES_CURRENT'
+export const QUES_DELETE = 'ques/QUES_DELETE'
+export const QUES_TOTALCOUNT = 'ques/QUES_TOTALCOUNT'
+export const QUES_HISTORY = 'ques/QUES_HISTORY'
+export const QUES_CONFIRM = 'ques/QUES_CONFIRM'
+export const ADD_COMMENT = 'ques/ADD_COMMENT'
